@@ -85,7 +85,7 @@ export default function Home() {
               <motion.div variants={fadeIn} className="relative flex items-center justify-center">
                 <div className="relative">
                   <img
-                    src="/Assets/Flat iPhone.png"
+                    src="/Assets/flat-iphone.png"
                     alt="Verso App"
                     className="w-auto h-[500px] md:h-[600px] object-contain drop-shadow-2xl"
                     style={{ maxWidth: '100%' }}
