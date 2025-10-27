@@ -75,11 +75,17 @@ export default function Home() {
                   <div>• Share devotionals and connect with your faith community</div>
                 </motion.div>
                 <motion.div variants={fadeIn} className="pt-4 flex items-center gap-6">
-                  <img
-                    src="/Assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-                    alt="Download on the App Store"
-                    className="h-14 cursor-pointer hover:opacity-80 transition-opacity"
-                  />
+                  <a
+                    href="https://apps.apple.com/pt/app/verso-daily-devotional/id6753986891"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/Assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+                      alt="Download on the App Store"
+                      className="h-14 cursor-pointer hover:opacity-80 transition-opacity"
+                    />
+                  </a>
                 </motion.div>
               </motion.div>
               <motion.div variants={fadeIn} className="relative flex items-center justify-center">
