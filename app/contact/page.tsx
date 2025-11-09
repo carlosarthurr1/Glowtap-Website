@@ -25,8 +25,9 @@ export default function Contact() {
       {/* Header/Navigation */}
       <header className="py-6 sticky top-0 bg-white/95 backdrop-blur-sm z-50">
         <div className="container flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold tracking-tight">
-            Verso
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/Assets/appicon11.jpg" alt="GlowTap" className="w-8 h-8 rounded-lg" />
+            <span className="text-2xl font-bold tracking-tight">GlowTap</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">
@@ -59,7 +60,7 @@ export default function Contact() {
                 Get in Touch
               </motion.h2>
               <motion.p variants={fadeIn} className="text-gray-600 max-w-2xl mx-auto">
-                Have questions about Verso? Want to learn more? Contact us below!
+                Have questions about GlowTap? Want to learn more? Contact us below!
               </motion.p>
             </div>
 
@@ -79,11 +80,12 @@ export default function Contact() {
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
               <div className="col-span-1 md:col-span-2">
-                <Link href="/" className="text-2xl font-bold tracking-tight inline-block mb-4">
-                  Verso
+                <Link href="/" className="flex items-center gap-2 inline-flex mb-4">
+                  <img src="/Assets/appicon11.jpg" alt="GlowTap" className="w-10 h-10 rounded-lg" />
+                  <span className="text-2xl font-bold tracking-tight">GlowTap</span>
                 </Link>
                 <p className="text-gray-600 mb-6 max-w-md">
-                  Your daily devotional companion for spiritual growth, Bible learning, and mood improvement through faith.
+                  Transform your photos into professional portraits. Glow Up with AI-powered photo generation.
                 </p>
               </div>
               <div>
@@ -119,11 +121,11 @@ export default function Contact() {
             </div>
             <div className="pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-600 text-sm mb-4 md:mb-0">
-                © 2025 Verso. All rights reserved.
+                © 2025 GlowTap. All rights reserved.
               </p>
               <div className="flex space-x-6">
                 <Link href="#" className="text-gray-600 hover:text-black transition-colors text-sm">
-                  Made with 🙏 for your spiritual journey
+                  Made with ✨ to help you Glow Up
                 </Link>
               </div>
             </div>

@@ -9,16 +9,17 @@ export default function PoliticaDePrivacidade() {
   return (
     <main className="min-h-screen bg-white">
       <Head>
-        <title>Privacy Policy | Verso</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.ico" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Privacy Policy | GlowTap</title>
+        <link rel="icon" href="/Assets/appicon11.jpg" />
+        <link rel="apple-touch-icon" href="/Assets/appicon11.jpg" />
+        <link rel="shortcut icon" href="/Assets/appicon11.jpg" />
       </Head>
       {/* Header/Navigation */}
       <header className="py-6 sticky top-0 bg-white/95 backdrop-blur-sm z-50">
         <div className="container flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold tracking-tight">
-            Verso
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/Assets/appicon11.jpg" alt="GlowTap" className="w-8 h-8 rounded-lg" />
+            <span className="text-2xl font-bold tracking-tight">GlowTap</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">
@@ -28,7 +29,7 @@ export default function PoliticaDePrivacidade() {
               href="#"
               className="text-sm font-medium text-gray-600 hover:text-black transition-colors"
             >
-              Verso App
+              GlowTap App
             </Link>
           </nav>
           <Button variant="ghost" size="icon" className="md:hidden">
@@ -51,7 +52,7 @@ export default function PoliticaDePrivacidade() {
               <p className="text-gray-600 mb-6">Last updated: January 20, 2025</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">1. Introduction</h2>
-              <p>Verso ("we", "our" or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose and protect your personal information when you use our website, mobile application and related services.</p>
+              <p>GlowTap ("we", "our" or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose and protect your personal information when you use our website, mobile application and related services.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">2. Information We Collect</h2>
               <p>We may collect the following types of information:</p>
@@ -78,7 +79,7 @@ export default function PoliticaDePrivacidade() {
               </ul>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">4. AI and Machine Learning</h2>
-              <p>Verso uses GPT models and other artificial intelligence technologies to:</p>
+              <p>GlowTap uses GPT models and other artificial intelligence technologies to:</p>
               <ul className="list-disc pl-6 mt-2 mb-4 space-y-2">
                 <li>Generate personalized devotionals based on your spiritual challenges;</li>
                 <li>Recommend relevant scripture and spiritual content;</li>
@@ -144,7 +145,7 @@ export default function PoliticaDePrivacidade() {
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
               <div className="md:col-span-1">
-                <h3 className="font-semibold mb-4">About Verso</h3>
+                <h3 className="font-semibold mb-4">About GlowTap</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Daily devotional and Bible game app helping users deepen their faith with personalized spiritual guidance.
                 </p>
@@ -159,7 +160,7 @@ export default function PoliticaDePrivacidade() {
                   </li>
                   <li>
                     <Link href="#" className="text-gray-600 hover:text-black transition-colors">
-                      Verso App
+                      GlowTap App
                     </Link>
                   </li>
                 </ul>
@@ -182,7 +183,7 @@ export default function PoliticaDePrivacidade() {
             </div>
             <div className="pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-600 text-sm mb-4 md:mb-0">
-                © 2025 Verso. All rights reserved.
+                © 2025 GlowTap. All rights reserved.
               </p>
               <div className="flex space-x-6">
                 <Link href="#" className="text-gray-600 hover:text-black transition-colors text-sm">

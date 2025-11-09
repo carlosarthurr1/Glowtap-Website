@@ -38,7 +38,7 @@ export default function ApplicationForm() {
 
     try {
       const payload = {
-        content: "New Verso Contact Form Submission!",
+        content: "New GlowTap Contact Form Submission!",
         embeds: [
           {
             title: "Contact Form Message",
@@ -204,7 +204,7 @@ export default function ApplicationForm() {
           value={formData.features}
           onChange={handleChange}
           className={inputStyles}
-          placeholder="Tell us about your questions, feedback, or ideas for Verso..."
+          placeholder="Tell us about your questions, feedback, or ideas for GlowTap..."
           required
         />
       </div>
@@ -223,7 +223,7 @@ export default function ApplicationForm() {
           </div>
           <div className="ml-3 text-sm">
             <label htmlFor="consent" className="text-gray-600">
-              I agree to receive updates and responses about Verso
+              I agree to receive updates and responses about GlowTap
             </label>
           </div>
         </div>

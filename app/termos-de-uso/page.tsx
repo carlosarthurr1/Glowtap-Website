@@ -8,16 +8,17 @@ export default function TermosDeUso() {
   return (
     <main className="min-h-screen bg-white">
       <Head>
-        <title>Terms of Use | Verso</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.ico" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Terms of Use | GlowTap</title>
+        <link rel="icon" href="/Assets/appicon11.jpg" />
+        <link rel="apple-touch-icon" href="/Assets/appicon11.jpg" />
+        <link rel="shortcut icon" href="/Assets/appicon11.jpg" />
       </Head>
       {/* Header/Navigation */}
       <header className="py-6 sticky top-0 bg-white/95 backdrop-blur-sm z-50">
         <div className="container flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold tracking-tight">
-            Verso
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/Assets/appicon11.jpg" alt="GlowTap" className="w-8 h-8 rounded-lg" />
+            <span className="text-2xl font-bold tracking-tight">GlowTap</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">
@@ -27,7 +28,7 @@ export default function TermosDeUso() {
               href="#"
               className="text-sm font-medium text-gray-600 hover:text-black transition-colors"
             >
-              Verso App
+              GlowTap App
             </Link>
           </nav>
           <Button variant="ghost" size="icon" className="md:hidden">
@@ -50,10 +51,10 @@ export default function TermosDeUso() {
               <p className="text-gray-600 mb-6">Last updated: January 20, 2025</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">1. Acceptance of Terms</h2>
-              <p>By accessing and using the services offered by Verso, you agree to these Terms of Use. If you do not agree with any part of these terms, please do not use our services.</p>
+              <p>By accessing and using the services offered by GlowTap, you agree to these Terms of Use. If you do not agree with any part of these terms, please do not use our services.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">2. Service Description</h2>
-              <p>Verso is a daily devotional and Bible game mobile application that helps users deepen their faith through engaging spiritual content. Our services include collectible devotional cards, Bible-based games, personalized devotional creation based on user problems or blessings, mood tracking features, and scripture-based reflections.</p>
+              <p>GlowTap is a daily devotional and Bible game mobile application that helps users deepen their faith through engaging spiritual content. Our services include collectible devotional cards, Bible-based games, personalized devotional creation based on user problems or blessings, mood tracking features, and scripture-based reflections.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">3. Eligibility</h2>
               <p>To use our services, you must be at least 13 years old. If you are between 13 and 18 years old, you must obtain consent from a parent or legal guardian before using our services.</p>
@@ -62,11 +63,11 @@ export default function TermosDeUso() {
               <p>When creating an account on our platform, you are responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">5. User Content</h2>
-              <p>By submitting content to our platform (including personal reflections, devotional preferences, and mood tracking data), you grant Verso a worldwide, non-exclusive, transferable, sublicensable, royalty-free license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display such content in any media.</p>
+              <p>By submitting content to our platform (including personal reflections, devotional preferences, and mood tracking data), you grant GlowTap a worldwide, non-exclusive, transferable, sublicensable, royalty-free license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display such content in any media.</p>
               <p>You are solely responsible for the content you submit and warrant that you have all necessary rights to grant the license above. You also agree that your content will not violate third-party rights or contain illegal or offensive material.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">6. AI and Data Usage</h2>
-              <p>Verso uses AI technologies to provide personalized devotional recommendations and spiritual guidance. By using our services, you acknowledge that:</p>
+              <p>GlowTap uses AI technologies to provide personalized devotional recommendations and spiritual guidance. By using our services, you acknowledge that:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>AI recommendations are provided for spiritual guidance purposes only and should not replace professional spiritual counseling or medical advice</li>
                 <li>We collect and process your mood and spiritual preference data to provide personalized devotional recommendations</li>
@@ -74,10 +75,10 @@ export default function TermosDeUso() {
               </ul>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">7. Intellectual Property</h2>
-              <p>All content made available on our platform, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, scripture references, and data compilations, is the property of Verso or its content suppliers and is protected by copyright laws.</p>
+              <p>All content made available on our platform, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, scripture references, and data compilations, is the property of GlowTap or its content suppliers and is protected by copyright laws.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">8. Limitation of Liability</h2>
-              <p>Verso shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, resulting from the use or inability to use our services. Verso's content is for spiritual guidance purposes only and should not be considered professional counseling or medical advice.</p>
+              <p>GlowTap shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, resulting from the use or inability to use our services. GlowTap's content is for spiritual guidance purposes only and should not be considered professional counseling or medical advice.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">9. Modifications to Terms</h2>
               <p>We reserve the right to modify these Terms of Use at any time. Modifications will take effect immediately upon publication of the updated terms. Your continued use of our services after the publication of any modifications constitutes acceptance of such modifications.</p>
@@ -107,7 +108,7 @@ export default function TermosDeUso() {
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
               <div className="md:col-span-1">
-                <h3 className="font-semibold mb-4">About Verso</h3>
+                <h3 className="font-semibold mb-4">About GlowTap</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Daily devotional and Bible game app helping users deepen their faith with personalized spiritual guidance.
                 </p>
@@ -122,7 +123,7 @@ export default function TermosDeUso() {
                   </li>
                   <li>
                     <Link href="#" className="text-gray-600 hover:text-black transition-colors">
-                      Verso App
+                      GlowTap App
                     </Link>
                   </li>
                 </ul>
@@ -145,7 +146,7 @@ export default function TermosDeUso() {
             </div>
             <div className="pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-600 text-sm mb-4 md:mb-0">
-                © 2025 Verso. All rights reserved.
+                © 2025 GlowTap. All rights reserved.
               </p>
               <div className="flex space-x-6">
                 <Link href="#" className="text-gray-600 hover:text-black transition-colors text-sm">
