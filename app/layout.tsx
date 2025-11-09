@@ -4,12 +4,12 @@ import { headingFont, bodyFont } from "./fonts";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Verso - Daily Devotional & Bible Game",
+  title: "GlowTap - Daily Devotional & Bible Game",
   description: "Collect devotional cards, get closer to God, and learn about the bible. Create custom devotionals based on your problems or blessings. Track and improve your mood with the Bible.",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
-    shortcut: "/favicon.ico"
+    icon: "/Assets/appicon11.jpg",
+    apple: "/Assets/appicon11.jpg",
+    shortcut: "/Assets/appicon11.jpg"
   }
 };
 
