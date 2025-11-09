@@ -58,33 +58,35 @@ export default function PoliticaDePrivacidade() {
               <p>We may collect the following types of information:</p>
               <ul className="list-disc pl-6 mt-2 mb-4 space-y-2">
                 <li><strong>Personal Identification Information:</strong> Name, email address, phone number, and other information you voluntarily provide to us.</li>
-                <li><strong>Photo Data:</strong> Photos you upload for processing, generation preferences, style selections, and reference images for photo generation.</li>
-                <li><strong>Usage Information:</strong> Information about how you use our app and services, including features accessed, photos generated, and generation history.</li>
+                <li><strong>Spiritual Data:</strong> Your devotional preferences, spiritual challenges, mood tracking data, custom devotionals created, and faith journey notes.</li>
+                <li><strong>Usage Information:</strong> Information about how you use our app and services, including features accessed, devotionals collected, games played, and custom devotionals created.</li>
                 <li><strong>Device Information:</strong> Device type, operating system, browser, IP address, and other technical information.</li>
-                <li><strong>Preferences Data:</strong> Information about your photo generation preferences and style choices that you voluntarily share to help us provide personalized photo generation.</li>
+                <li><strong>Mood & Wellness Data:</strong> Information about your emotional and spiritual state that you voluntarily share to help us provide personalized devotional recommendations.</li>
               </ul>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">3. How We Use Your Information</h2>
               <p>We use your information for the following purposes:</p>
               <ul className="list-disc pl-6 mt-2 mb-4 space-y-2">
-                <li>Provide, maintain and improve our photo generation services;</li>
-                <li>Generate professional photos based on your inputs and preferences;</li>
-                <li>Enhance photo quality based on your style and reference preferences;</li>
-                <li>Create personalized photo generation recommendations;</li>
-                <li>Analyze usage trends to improve our AI models and photo quality;</li>
+                <li>Provide, maintain and improve our devotional and spiritual services;</li>
+                <li>Create personalized devotionals based on your spiritual needs and challenges;</li>
+                <li>Generate relevant scripture and spiritual guidance recommendations;</li>
+                <li>Send daily devotionals and spiritual content notifications;</li>
+                <li>Track your spiritual growth and mood improvements over time;</li>
+                <li>Provide Bible games and educational spiritual content;</li>
+                <li>Analyze usage trends to improve our AI models and services;</li>
                 <li>Communicate with you about app updates and new features;</li>
                 <li>Comply with legal obligations.</li>
               </ul>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">4. AI and Machine Learning</h2>
-              <p>GlowTap uses advanced AI technologies and machine learning models to:</p>
+              <p>GlowTap uses GPT models and other artificial intelligence technologies to:</p>
               <ul className="list-disc pl-6 mt-2 mb-4 space-y-2">
-                <li>Generate professional photos based on your inputs and preferences;</li>
-                <li>Create AI selfies, headshots, and aesthetic photos;</li>
-                <li>Learn from your style preferences to improve photo quality;</li>
+                <li>Generate personalized devotionals based on your spiritual challenges;</li>
+                <li>Recommend relevant scripture and spiritual content;</li>
+                <li>Create customized spiritual guidance based on your mood and needs;</li>
                 <li>Improve our service quality and accuracy over time.</li>
               </ul>
-              <p>Your photo preferences, generation history, and engagement patterns may be used to train and improve our AI models, but this data is anonymized and aggregated to protect your privacy.</p>
+              <p>Your devotional preferences, mood data, and engagement patterns may be used to train and improve our AI models, but this data is anonymized and aggregated to protect your privacy.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">5. Information Sharing</h2>
               <p>We may share your information in the following circumstances:</p>
