@@ -54,7 +54,7 @@ export default function TermosDeUso() {
               <p>By accessing and using the services offered by GlowTap, you agree to these Terms of Use. If you do not agree with any part of these terms, please do not use our services.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">2. Service Description</h2>
-              <p>GlowTap is a daily devotional and Bible game mobile application that helps users deepen their faith through engaging spiritual content. Our services include collectible devotional cards, Bible-based games, personalized devotional creation based on user problems or blessings, mood tracking features, and scripture-based reflections.</p>
+              <p>GlowTap is an AI-powered photo generation mobile application that helps users create professional-quality photos in seconds. Our services include AI selfie generation, professional headshot creation, aesthetic photo generation, dating profile photos, social media content creation, and reference-based photo copying.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">3. Eligibility</h2>
               <p>To use our services, you must be at least 13 years old. If you are between 13 and 18 years old, you must obtain consent from a parent or legal guardian before using our services.</p>
@@ -67,18 +67,18 @@ export default function TermosDeUso() {
               <p>You are solely responsible for the content you submit and warrant that you have all necessary rights to grant the license above. You also agree that your content will not violate third-party rights or contain illegal or offensive material.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">6. AI and Data Usage</h2>
-              <p>GlowTap uses AI technologies to provide personalized devotional recommendations and spiritual guidance. By using our services, you acknowledge that:</p>
+              <p>GlowTap uses advanced AI technologies to generate professional photos based on your inputs. By using our services, you acknowledge that:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>AI recommendations are provided for spiritual guidance purposes only and should not replace professional spiritual counseling or medical advice</li>
-                <li>We collect and process your mood and spiritual preference data to provide personalized devotional recommendations</li>
-                <li>Your feedback and engagement data may be used to improve our AI models and service quality</li>
+                <li>AI-generated photos are created for personal and commercial use</li>
+                <li>We collect and process your photos and preferences to provide better photo generation results</li>
+                <li>Your feedback and engagement data may be used to improve our AI models and photo quality</li>
               </ul>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">7. Intellectual Property</h2>
               <p>All content made available on our platform, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, scripture references, and data compilations, is the property of GlowTap or its content suppliers and is protected by copyright laws.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">8. Limitation of Liability</h2>
-              <p>GlowTap shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, resulting from the use or inability to use our services. GlowTap's content is for spiritual guidance purposes only and should not be considered professional counseling or medical advice.</p>
+              <p>GlowTap shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, resulting from the use or inability to use our services. Users are responsible for ensuring that AI-generated photos comply with all applicable laws and regulations in their jurisdiction.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">9. Modifications to Terms</h2>
               <p>We reserve the right to modify these Terms of Use at any time. Modifications will take effect immediately upon publication of the updated terms. Your continued use of our services after the publication of any modifications constitutes acceptance of such modifications.</p>
@@ -87,7 +87,7 @@ export default function TermosDeUso() {
               <p>These Terms of Use shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law provisions.</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">11. Contact</h2>
-              <p>If you have any questions about these Terms of Use, please contact us at: support@versoapp.com</p>
+              <p>If you have any questions about these Terms of Use, please contact us at: support@glowtap.com</p>
             </div>
 
             <div className="mt-12 pt-8 border-t border-gray-200">
