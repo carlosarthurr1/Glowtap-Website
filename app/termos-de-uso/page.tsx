@@ -47,7 +47,7 @@ export default function TermosDeUso() {
             <h1 className="text-3xl md:text-4xl font-bold mb-8">Terms of Use</h1>
 
             <div className="prose prose-lg">
-              <p className="text-gray-600 mb-6">Last updated: January 20, 2025</p>
+              <p className="text-gray-600 mb-6">Last updated: November 11, 2025</p>
 
               <h2 className="text-xl font-semibold mt-8 mb-4">1. Acceptance of Terms</h2>
               <p>By accessing and using the services offered by GlowTap, you agree to these Terms of Use. If you do not agree with any part of these terms, please do not use our services.</p>
@@ -73,19 +73,30 @@ export default function TermosDeUso() {
                 <li>Your feedback and engagement data may be used to improve our AI models and photo quality</li>
               </ul>
 
-              <h2 className="text-xl font-semibold mt-8 mb-4">7. Intellectual Property</h2>
+              <h2 className="text-xl font-semibold mt-8 mb-4">7. Fair Use Policy for "Infinite Credits"</h2>
+              <p>
+                Our yearly subscription may be advertised as providing "infinite credits" for ease of marketing, but legally it is governed by this Fair Use Policy. Each paid yearly subscription includes an allowance of up to 500 credits (or photo generations) per
+                subscription year and per account. Attempting to generate more than 500 credits in the same subscription year without GlowTap&apos;s prior written approval constitutes misuse of the plan and may result in temporary throttling, additional charges, or
+                cancellation.
+              </p>
+              <p>
+                Staying within the 500-credit annual allowance keeps you in compliance with this policy and ensures that the "infinite credits" claim reflects reasonable, good-faith usage. If your professional or enterprise needs require a higher cap, contact support@glowtap.com so we can
+                evaluate an extended-use agreement in writing before you exceed the allowance.
+              </p>
+
+              <h2 className="text-xl font-semibold mt-8 mb-4">8. Intellectual Property</h2>
               <p>All content made available on our platform, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, scripture references, and data compilations, is the property of GlowTap or its content suppliers and is protected by copyright laws.</p>
 
-              <h2 className="text-xl font-semibold mt-8 mb-4">8. Limitation of Liability</h2>
+              <h2 className="text-xl font-semibold mt-8 mb-4">9. Limitation of Liability</h2>
               <p>GlowTap shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, resulting from the use or inability to use our services. Users are responsible for ensuring that AI-generated photos comply with all applicable laws and regulations in their jurisdiction.</p>
 
-              <h2 className="text-xl font-semibold mt-8 mb-4">9. Modifications to Terms</h2>
+              <h2 className="text-xl font-semibold mt-8 mb-4">10. Modifications to Terms</h2>
               <p>We reserve the right to modify these Terms of Use at any time. Modifications will take effect immediately upon publication of the updated terms. Your continued use of our services after the publication of any modifications constitutes acceptance of such modifications.</p>
 
-              <h2 className="text-xl font-semibold mt-8 mb-4">10. Governing Law</h2>
+              <h2 className="text-xl font-semibold mt-8 mb-4">11. Governing Law</h2>
               <p>These Terms of Use shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law provisions.</p>
 
-              <h2 className="text-xl font-semibold mt-8 mb-4">11. Contact</h2>
+              <h2 className="text-xl font-semibold mt-8 mb-4">12. Contact</h2>
               <p>If you have any questions about these Terms of Use, please contact us at: support@glowtap.com</p>
             </div>
 
