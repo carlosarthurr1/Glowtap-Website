@@ -3,102 +3,122 @@
 @tailwind utilities;
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
-  --radius: 0.5rem;
-}
+  --background: 0 0% 4%;
+  --foreground: 0 0% 100%;
+  --primary: 43 74% 49%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 10%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 43 74% 49%;
+  --accent-foreground: 0 0% 100%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 0 0% 60%;
+  --card: 0 0% 6%;
+  --card-foreground: 0 0% 100%;
+  --border: 0 0% 15%;
+  --input: 0 0% 15%;
+  --ring: 43 74% 49%;
+  --radius: 0.75rem;
 
-.dark {
-  --background: 222.2 84% 4.9%;
-  --foreground: 210 40% 98%;
-  --primary: 210 40% 98%;
-  --primary-foreground: 222.2 47.4% 11.2%;
-  --secondary: 217.2 32.6% 17.5%;
-  --secondary-foreground: 210 40% 98%;
-  --accent: 217.2 32.6% 17.5%;
-  --accent-foreground: 210 40% 98%;
-  --muted: 217.2 32.6% 17.5%;
-  --muted-foreground: 215 20.2% 65.1%;
-  --card: 222.2 84% 4.9%;
-  --card-foreground: 210 40% 98%;
-  --border: 217.2 32.6% 17.5%;
-  --input: 217.2 32.6% 17.5%;
-  --ring: 212.7 26.8% 83.9%;
+  /* Brand colors */
+  --gold: #d4af37;
+  --gold-light: #f0d78c;
+  --gold-dark: #b8860b;
 }
 
 * {
   @apply border-border;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  @apply bg-background text-foreground;
+  @apply bg-[#0a0a0a] text-white antialiased;
+  font-family: var(--font-poppins), system-ui, sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--font-perfectly-nineties);
-}
-
-body, p, span, div, button, input, textarea, select {
-  font-family: var(--font-poppins);
+  font-family: var(--font-perfectly-nineties), system-ui, sans-serif;
 }
 
 h1 {
-  @apply text-5xl font-black md:text-6xl lg:text-7xl leading-tight;
+  @apply text-4xl font-black md:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight;
 }
 
 h2 {
-  @apply text-3xl font-bold md:text-4xl lg:text-5xl;
+  @apply text-3xl font-bold md:text-4xl lg:text-5xl tracking-tight;
 }
 
 h3 {
-  @apply text-2xl font-semibold md:text-3xl;
-}
-
-h4 {
   @apply text-xl font-semibold md:text-2xl;
 }
 
-.container {
-  @apply mx-auto px-4 max-w-7xl;
+h4 {
+  @apply text-lg font-semibold md:text-xl;
 }
 
-.bento-grid {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+/* Selection styling */
+::selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: white;
 }
 
-/* Removed gradient text */
-
-.blur-bg {
-  @apply relative overflow-hidden;
+::-moz-selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: white;
 }
 
-.blur-bg::after {
-  content: "";
-  @apply absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/70 to-transparent;
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-.step-container {
-  @apply relative flex items-center;
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
 }
 
-.step-container::after {
-  content: "";
-  @apply absolute top-1/2 left-full h-0.5 w-8 bg-primary transform -translate-y-1/2 hidden md:block;
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 4px;
 }
 
-.step-container:last-child::after {
-  @apply hidden;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.5);
+}
+
+/* Focus states */
+*:focus-visible {
+  @apply outline-none ring-2 ring-[#d4af37]/50 ring-offset-2 ring-offset-[#0a0a0a];
+}
+
+/* Link hover effect */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Smooth image loading */
+img {
+  @apply transition-opacity duration-300;
+}
+
+/* Glass effect utility */
+.glass {
+  @apply backdrop-blur-xl bg-white/[0.02] border border-white/[0.05];
+}
+
+/* Gold gradient text utility */
+.text-gold-gradient {
+  @apply bg-gradient-to-r from-[#d4af37] via-[#f0d78c] to-[#b8860b] bg-clip-text text-transparent;
+}
+
+/* Glow effect utility */
+.glow {
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.15);
+}
+
+.glow-strong {
+  box-shadow: 0 0 60px rgba(212, 175, 55, 0.25);
 }

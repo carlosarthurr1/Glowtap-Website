@@ -5,7 +5,7 @@ interface DownloadButtonProps {
 }
 
 export default function DownloadButton({ className = "" }: DownloadButtonProps) {
-  const appStoreUrl = "https://apps.apple.com/pt/app/glowtap-daily-devotional/id6753986891";
+  const appStoreUrl = "https://apps.apple.com/app/ai-headshot-editor-glowtap/id6754992714";
 
   return (
     <a

@@ -4,12 +4,23 @@ import { headingFont, bodyFont } from "./fonts";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "GlowTap - Daily Devotional & Bible Game",
-  description: "Collect devotional cards, get closer to God, and learn about the bible. Create custom devotionals based on your problems or blessings. Track and improve your mood with the Bible.",
+  title: "GlowTap - AI Headshot Editor | Professional Photos in Seconds",
+  description: "Transform any selfie into studio-quality professional headshots with AI. Create LinkedIn photos, dating profile pictures, social media content, and aesthetic portraits instantly. Download free on iOS.",
+  keywords: ["AI headshot", "professional photos", "headshot generator", "AI portrait", "LinkedIn photo", "dating photos", "selfie editor"],
   icons: {
     icon: "/Assets/appicon11.jpg",
     apple: "/Assets/appicon11.jpg",
     shortcut: "/Assets/appicon11.jpg"
+  },
+  openGraph: {
+    title: "GlowTap - AI Headshot Editor",
+    description: "Professional headshots in seconds, not days. Transform selfies into studio-quality portraits with AI.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GlowTap - AI Headshot Editor",
+    description: "Professional headshots in seconds, not days. Transform selfies into studio-quality portraits with AI.",
   }
 };
 
