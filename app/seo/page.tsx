@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import ApplicationForm from "@/components/application-form";
+import { seoPages } from "@/lib/seo-data";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -19,7 +19,7 @@ const staggerContainer = {
   }
 };
 
-export default function Contact() {
+export default function SEOIndexPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Header/Navigation */}
@@ -43,33 +43,42 @@ export default function Contact() {
         </div>
       </header>
 
-      {/* Contact Form Section */}
-      <section className="py-24">
+      {/* Content */}
+      <section className="py-20 md:py-32">
         <div className="container">
           <motion.div
-            className="max-w-5xl mx-auto"
+            className="max-w-4xl mx-auto"
             variants={staggerContainer}
             initial="hidden"
             animate="visible"
           >
-            <div className="text-center mb-16">
-              <motion.span variants={fadeIn} className="inline-block px-3 py-1 bg-black/5 rounded-full text-sm font-medium mb-2">
-                Contact Us
-              </motion.span>
-              <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl font-bold mb-4">
-                Get in Touch
-              </motion.h2>
-              <motion.p variants={fadeIn} className="text-gray-600 max-w-2xl mx-auto">
-                Have questions about GlowTap? Want to learn more? Contact us below!
-              </motion.p>
-            </div>
+            <motion.h1 variants={fadeIn} className="text-4xl md:text-5xl font-bold text-center mb-6">
+              Photo Generation Features
+            </motion.h1>
+            <motion.p variants={fadeIn} className="text-xl text-gray-600 text-center mb-12">
+              Explore different ways to use GlowTap to create stunning professional photos
+            </motion.p>
 
-            <motion.div
-              variants={fadeIn}
-              className="max-w-2xl mx-auto bg-white p-8 md:p-10 rounded-2xl border border-black/5 shadow-sm"
-            >
-              <ApplicationForm />
-            </motion.div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {seoPages.map((page, index) => (
+                <motion.div key={page.id} variants={fadeIn}>
+                  <Link
+                    href={`/seo/${page.slug}`}
+                    className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl hover:shadow-lg transition-shadow border border-blue-200 hover:border-blue-400"
+                  >
+                    <h2 className="text-xl font-bold text-gray-900 mb-2 hover:text-blue-600 transition-colors">
+                      {page.headline}
+                    </h2>
+                    <p className="text-gray-600 mb-4 text-sm">
+                      {page.description}
+                    </p>
+                    <div className="flex items-center text-blue-600 font-semibold text-sm">
+                      Learn more →
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>

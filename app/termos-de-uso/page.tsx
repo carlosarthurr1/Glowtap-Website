@@ -16,8 +16,9 @@ export default function TermosDeUso() {
       {/* Header/Navigation */}
       <header className="py-6 sticky top-0 bg-white/95 backdrop-blur-sm z-50">
         <div className="container flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold tracking-tight">
-            GlowTap
+          <Link href="/" className="flex items-center gap-2">
+            <img src="/Assets/appicon11.jpg" alt="GlowTap" className="w-8 h-8 rounded-lg" />
+            <span className="text-2xl font-bold tracking-tight">GlowTap</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">
